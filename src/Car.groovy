@@ -21,6 +21,8 @@ class Car{
   }
 
   //methods
+
+  //start
   void start(){
     if(this.on==true){
       steps.echo "Car has already started!";
@@ -30,6 +32,7 @@ class Car{
     }
   }
 
+  //stop
   void stop(){
     if(this.on==true){
       steps.echo "Car stoped!";
@@ -39,6 +42,7 @@ class Car{
     }
   }
 
+  //horn
   void horn(){
     if(this.on==true){
       steps.echo "Horned!";
@@ -46,6 +50,12 @@ class Car{
       steps.echo "Car is stopped!";
     }
   }
-}
+
+  //details
+  void details(){
+    steps.echo "Name : ${name}";
+    steps.echo "Color : ${color}";
+    steps.echo "Speed : ${speed}";
+  }
   
 }
