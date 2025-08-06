@@ -4,8 +4,8 @@ class Person{
   String fname;
   String lname;
   int age;
-  float weight;
-  float height;
+  def weight;
+  def height;
   def s;
 
   //constructor
@@ -16,7 +16,7 @@ class Person{
   }
 
   //coustm
-  Person(String fname,String lname,int age,float weight,float height,def s){
+  Person(String fname,String lname,int age,def weight,def height,def s){
     this.fname=fname;
     this.lname=lname;
     this.age=age;
